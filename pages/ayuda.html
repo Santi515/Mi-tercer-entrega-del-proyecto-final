@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/ayuda.css">
+    <title>Ayuda al Cliente</title>
+</head>
+
+<body>
+    <header>
+        <img src="../img/inmobiliaria-logo.jpg" alt="">
+        <h1><span>I</span>nmobiliarias <br><span>A</span>ltagaveite</h1>
+        <ul style="text-align: right;">
+            <il><a href="../index.html">Inicio</a></il>
+            <il><a href="../pages/departamentos.html">Departamentos</a></il>
+            <il><a href="../pages/casas.html">Casas</a></il>
+            <il><a href="../pages/ayuda.html">Ayuda</a></il>
+        </ul>
+    </header>
+
+    <main>
+        <section>
+            <article>
+                <h2 class="main_title">Para poder cominucarnos su problema necesitariamos que ingrese los siguientes
+                    datos:</h2>
+                <form action="problema de un cliente" method="post" enctype="text/plain">
+                    <div>
+                        <label class="data" for="nombre">Nombre:</label>
+                        <input name="nombre" type="text">
+                        <br>
+                        <label class="data" for="apellido">Apellido:</label>
+                        <input type="text" name="apellido">
+                        <br>
+                        <label class="data" for="correo">Correo electronico:</label>
+                        <input type="mail" name="correo" placeholder="ejemplo@gmail.com">
+                        <br>
+                        <label class="data" for="numero de tel">Número de Telefono:</label>
+                        <input type="text" name="numero de tel" placeholder="11-2345-6789">
+                    </div>
+                    <textarea name="comentarios" id="" cols="40" rows="15"
+                        placeholder="Diganos cual seria su problema en este cuadro de texto..."></textarea>
+                    <br>
+                    <input class="button" type="submit" value="Enviar formulario">
+                    <input class="button" type="reset" value="Limpiar formulario">
+                </form>
+                <h2 class="end_title">¡Le contestaremos lo mas pronto posible!</h2>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <h3>¡Enterate de nuestras ultimas noticias y publicaciones siguiendo nuestras redes!</h3>
+        <a href="url(https://www.facebook.com/zonaprop/)"><img src="../img/facebook.png" alt=""></a>
+    </footer>
+</body>
+
+</html>
