@@ -151,6 +151,10 @@ footer img{
         height: 90px;
         width: 112px;
     }
+    ul il{
+        font-size: 20%;
+        font-weight: bold;
+    }
     footer{
         width: 100%;
     }

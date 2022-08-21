@@ -45,7 +45,7 @@ span {
 }
 
 form {
-  margin-right: 400px;
+  margin-right: 460px;
   margin-left: 300px;
   padding: 25px;
   background: rgb(135, 135, 135);
@@ -73,7 +73,7 @@ textarea {
   margin-left: 10px;
   margin-top: 20px;
   height: 200px;
-  width: 500px;
+  width: 450px;
   border: solid 3px;
   border-radius: 2px;
 }
@@ -116,6 +116,14 @@ footer img {
   header {
     width: 100%;
   }
+  textarea{
+    width: 100%;
+    height: auto;
+  }
+  ul il{
+    font-size: 20%;
+    font-weight: bold;
+}
   img {
     height: 90px;
     width: 112px;
