@@ -18,12 +18,15 @@ header ul il {
   align-items: center;
   justify-self: center;
   align-content: space-between;
-  padding: 10px;
-  margin-right: 5px;
+  padding: 11px;
+  margin-right: 9px;
   margin-bottom: 15px;
-  font-size: larger;
+  font-size: 150%;
   font-weight: light;
-  color: red;
+  font-family: 'Times New Roman', Times, serif;
+}
+header a{
+  color: rgb(76, 76, 76);
 }
 header img {
   height: 103px;
@@ -45,9 +48,11 @@ span {
 }
 
 form {
-  margin-right: 460px;
-  margin-left: 300px;
-  padding: 25px;
+  margin-left: 400px;
+  padding-top: 28px;
+  padding-left: 35px;
+  padding-bottom: 20px;
+  width: 580px;
   background: rgb(135, 135, 135);
   background: linear-gradient(0deg, rgb(206, 206, 206) 21%, rgb(204, 9, 9) 100%);
   border: solid 5px;
@@ -115,6 +120,9 @@ footer img {
 @media only screen and (min-width: 320px) and (max-width: 576px) {
   header {
     width: 100%;
+  }
+  form{
+    width: max-content;
   }
   textarea{
     width: 100%;

@@ -48,9 +48,11 @@ span{
 }
 
 form{
-    margin-right: 400px;
-    margin-left: 300px;
-    padding: 25px;
+    margin-left: 400px;
+    padding-top: 28px;
+    padding-left: 35px;
+    padding-bottom: 20px;
+    width: 580px;
     background: rgb(135,135,135);
     background: linear-gradient(0deg, rgb(206, 206, 206) 21%, rgba(204,9,9,1) 100%);
     border: solid 5px;
@@ -121,9 +123,13 @@ footer{
     header{
         width: 100%;
     }
+    
     textarea{
         width: 100%;
         height: auto;
+    }
+    section div{
+        width: max-content;
     }
     ul il{
         font-size: 20%;

@@ -12,18 +12,21 @@ header{
     margin: 0px;
     background: linear-gradient(to left, rgb(249, 134, 134), white);
 
-    ul il{
+    ul il {
         display: flexbox;
         flex-direction: row;
         align-items: center;
         justify-self: center;
         align-content: space-between;
-        padding: 10px;
-        margin-right: 5px;
+        padding: 11px;
+        margin-right: 9px;
         margin-bottom: 15px;
-        font-size: larger;
+        font-size: 150%;
         font-weight: light;
-        color: red;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    a{
+        color: rgb(76, 76, 76);
     }
 
     img{
@@ -155,6 +158,9 @@ footer{
     img{
         height: 90px;
         width: 112px;
+    }
+    section div{
+        width: max-content;
     }
     ul il{
         font-size: 20%;
