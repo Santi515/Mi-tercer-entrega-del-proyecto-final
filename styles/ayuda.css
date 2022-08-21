@@ -58,6 +58,7 @@ form {
   border: solid 5px;
   border-radius: 1em;
 }
+/*Aca estuve tratando de modificar el formulario para que quede en el centro y asi queda mejor para todas las vistas, pero no entiendo por que al poner "float:center;" dentro del form no me deja, pense que podria ponerlo en el "ayuda.html" y mandarle "style: float: center;". Si arreglo esa pavada estaria mejor*/
 
 label {
   font-size: 17px;
